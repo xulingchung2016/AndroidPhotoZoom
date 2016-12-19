@@ -1,0 +1,6 @@
+# view res/layout/activity_main.xml #generated:22
+-keep class com.blocker.photo.HackyViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.blocker.photo.MainActivity { <init>(...); }
+

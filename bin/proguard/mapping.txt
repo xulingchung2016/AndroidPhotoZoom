@@ -1,0 +1,1382 @@
+android.support.v4.os.ParcelableCompat -> a.a.a.a.a:
+    android.os.Parcelable$Creator newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks) -> a
+android.support.v4.os.ParcelableCompat$CompatCreator -> a.a.a.a.b:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.os.ParcelableCompatCreatorCallbacks -> a.a.a.a.c:
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+    java.lang.Object[] newArray(int) -> a
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2 -> a.a.a.a.d:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub -> a.a.a.a.e:
+    android.os.Parcelable$Creator instantiate(android.support.v4.os.ParcelableCompatCreatorCallbacks) -> a
+android.support.v4.view.AccessibilityDelegateCompat -> a.a.a.b.a:
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl IMPL -> b
+    java.lang.Object DEFAULT_DELEGATE -> c
+    java.lang.Object mBridge -> a
+    java.lang.Object getBridge() -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl -> a.a.a.b.b:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1 -> a.a.a.b.c:
+    android.support.v4.view.AccessibilityDelegateCompat val$compat -> a
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl this$0 -> b
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl -> a.a.a.b.d:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl -> a.a.a.b.e:
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1 -> a.a.a.b.f:
+    android.support.v4.view.AccessibilityDelegateCompat val$compat -> a
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl this$0 -> b
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    java.lang.Object getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl -> a.a.a.b.g:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompatIcs -> a.a.a.b.h:
+    java.lang.Object newAccessibilityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessibilityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompatIcs$1 -> a.a.a.b.i:
+    android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge val$bridge -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onInitializeAccessibilityEvent
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo) -> onInitializeAccessibilityNodeInfo
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onPopulateAccessibilityEvent
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> onRequestSendAccessibilityEvent
+    void sendAccessibilityEvent(android.view.View,int) -> sendAccessibilityEvent
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge -> a.a.a.b.j:
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompatJellyBean -> a.a.a.b.k:
+    java.lang.Object newAccessibilityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean) -> a
+    java.lang.Object getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$1 -> a.a.a.b.l:
+    android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean val$bridge -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onInitializeAccessibilityEvent
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo) -> onInitializeAccessibilityNodeInfo
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onPopulateAccessibilityEvent
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> onRequestSendAccessibilityEvent
+    void sendAccessibilityEvent(android.view.View,int) -> sendAccessibilityEvent
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
+    android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View) -> getAccessibilityNodeProvider
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> performAccessibilityAction
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean -> a.a.a.b.m:
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    java.lang.Object getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.KeyEventCompat -> a.a.a.b.n:
+    android.support.v4.view.KeyEventCompat$KeyEventVersionImpl IMPL -> a
+    boolean hasModifiers(android.view.KeyEvent,int) -> a
+    boolean hasNoModifiers(android.view.KeyEvent) -> a
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl -> a.a.a.b.o:
+    int metaStateFilterDirectionalModifiers(int,int,int,int,int) -> a
+    int normalizeMetaState(int) -> a
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompat$EclairKeyEventVersionImpl -> a.a.a.b.p:
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl -> a.a.a.b.q:
+    int normalizeMetaState(int) -> a
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl -> a.a.a.b.r:
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.KeyEventCompatHoneycomb -> a.a.a.b.s:
+    int normalizeMetaState(int) -> a
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> b
+android.support.v4.view.MotionEventCompat -> a.a.a.b.t:
+    android.support.v4.view.MotionEventCompat$MotionEventVersionImpl IMPL -> a
+    int getActionIndex(android.view.MotionEvent) -> a
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl -> a.a.a.b.u:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl -> a.a.a.b.v:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl -> a.a.a.b.w:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompatEclair -> a.a.a.b.x:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.PagerAdapter -> a.a.a.b.y:
+    android.database.DataSetObservable mObservable -> a
+    int getCount() -> a
+    void startUpdate(android.view.ViewGroup) -> a
+    java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
+    void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
+    void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object) -> b
+    void finishUpdate(android.view.ViewGroup) -> b
+    void startUpdate(android.view.View) -> a
+    java.lang.Object instantiateItem(android.view.View,int) -> a
+    void destroyItem(android.view.View,int,java.lang.Object) -> a
+    void setPrimaryItem(android.view.View,int,java.lang.Object) -> b
+    void finishUpdate(android.view.View) -> b
+    boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    android.os.Parcelable saveState() -> b
+    void restoreState(android.os.Parcelable,java.lang.ClassLoader) -> a
+    int getItemPosition(java.lang.Object) -> a
+    void registerDataSetObserver(android.database.DataSetObserver) -> a
+    void unregisterDataSetObserver(android.database.DataSetObserver) -> b
+    float getPageWidth(int) -> a
+android.support.v4.view.VelocityTrackerCompat -> a.a.a.b.z:
+    android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl IMPL -> a
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl -> a.a.a.b.aa:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl -> a.a.a.b.ab:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl -> a.a.a.b.ac:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompatHoneycomb -> a.a.a.b.ad:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.ViewCompat -> a.a.a.b.ae:
+    android.support.v4.view.ViewCompat$ViewCompatImpl IMPL -> a
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+    void setLayerType(android.view.View,int,android.graphics.Paint) -> a
+android.support.v4.view.ViewCompat$BaseViewCompatImpl -> a.a.a.b.af:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    long getFrameTime() -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+    void setLayerType(android.view.View,int,android.graphics.Paint) -> a
+android.support.v4.view.ViewCompat$EclairMr1ViewCompatImpl -> a.a.a.b.ag:
+android.support.v4.view.ViewCompat$GBViewCompatImpl -> a.a.a.b.ah:
+    int getOverScrollMode(android.view.View) -> a
+android.support.v4.view.ViewCompat$HCViewCompatImpl -> a.a.a.b.ai:
+    long getFrameTime() -> a
+    void setLayerType(android.view.View,int,android.graphics.Paint) -> a
+android.support.v4.view.ViewCompat$ICSViewCompatImpl -> a.a.a.b.aj:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+android.support.v4.view.ViewCompat$JBViewCompatImpl -> a.a.a.b.ak:
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl -> a.a.a.b.al:
+android.support.v4.view.ViewCompat$ViewCompatImpl -> a.a.a.b.am:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+    void setLayerType(android.view.View,int,android.graphics.Paint) -> a
+android.support.v4.view.ViewCompatGingerbread -> a.a.a.b.an:
+    int getOverScrollMode(android.view.View) -> a
+android.support.v4.view.ViewCompatHC -> a.a.a.b.ao:
+    long getFrameTime() -> a
+    void setLayerType(android.view.View,int,android.graphics.Paint) -> a
+android.support.v4.view.ViewCompatICS -> a.a.a.b.ap:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    void setAccessibilityDelegate(android.view.View,java.lang.Object) -> a
+android.support.v4.view.ViewCompatJB -> a.a.a.b.aq:
+    void postInvalidateOnAnimation(android.view.View) -> a
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> b
+    void setImportantForAccessibility(android.view.View,int) -> a
+android.support.v4.view.ViewConfigurationCompat -> a.a.a.b.ar:
+    android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl IMPL -> a
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl -> a.a.a.b.as:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl -> a.a.a.b.at:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl -> a.a.a.b.au:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompatFroyo -> a.a.a.b.av:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewPager -> a.a.a.b.aw:
+    int[] LAYOUT_ATTRS -> a
+    int mExpectedAdapterCount -> b
+    java.util.Comparator COMPARATOR -> c
+    android.view.animation.Interpolator sInterpolator -> d
+    java.util.ArrayList mItems -> e
+    android.support.v4.view.ViewPager$ItemInfo mTempItem -> f
+    android.graphics.Rect mTempRect -> g
+    android.support.v4.view.PagerAdapter mAdapter -> h
+    int mCurItem -> i
+    int mRestoredCurItem -> j
+    android.os.Parcelable mRestoredAdapterState -> k
+    java.lang.ClassLoader mRestoredClassLoader -> l
+    android.widget.Scroller mScroller -> m
+    android.support.v4.view.ViewPager$PagerObserver mObserver -> n
+    int mPageMargin -> o
+    android.graphics.drawable.Drawable mMarginDrawable -> p
+    int mTopPageBounds -> q
+    int mBottomPageBounds -> r
+    float mFirstOffset -> s
+    float mLastOffset -> t
+    int mChildWidthMeasureSpec -> u
+    int mChildHeightMeasureSpec -> v
+    boolean mInLayout -> w
+    boolean mScrollingCacheEnabled -> x
+    boolean mPopulatePending -> y
+    int mOffscreenPageLimit -> z
+    boolean mIsBeingDragged -> A
+    boolean mIsUnableToDrag -> B
+    int mDefaultGutterSize -> C
+    int mGutterSize -> D
+    int mTouchSlop -> E
+    float mLastMotionX -> F
+    float mLastMotionY -> G
+    float mInitialMotionX -> H
+    float mInitialMotionY -> I
+    int mActivePointerId -> J
+    android.view.VelocityTracker mVelocityTracker -> K
+    int mMinimumVelocity -> L
+    int mMaximumVelocity -> M
+    int mFlingDistance -> N
+    int mCloseEnough -> O
+    boolean mFakeDragging -> P
+    android.support.v4.widget.EdgeEffectCompat mLeftEdge -> Q
+    android.support.v4.widget.EdgeEffectCompat mRightEdge -> R
+    boolean mFirstLayout -> S
+    boolean mNeedCalculatePageOffsets -> T
+    boolean mCalledSuper -> U
+    int mDecorChildCount -> V
+    android.support.v4.view.ViewPager$OnPageChangeListener mOnPageChangeListener -> W
+    android.support.v4.view.ViewPager$OnPageChangeListener mInternalPageChangeListener -> Z
+    android.support.v4.view.ViewPager$OnAdapterChangeListener mAdapterChangeListener -> aa
+    android.support.v4.view.ViewPager$PageTransformer mPageTransformer -> ab
+    java.lang.reflect.Method mSetChildrenDrawingOrderEnabled -> ac
+    int mDrawingOrder -> ad
+    java.util.ArrayList mDrawingOrderedChildren -> ae
+    android.support.v4.view.ViewPager$ViewPositionComparator sPositionComparator -> af
+    java.lang.Runnable mEndScrollRunnable -> ag
+    int mScrollState -> ah
+    void initViewPager() -> a
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void setScrollState(int) -> setScrollState
+    void setAdapter(android.support.v4.view.PagerAdapter) -> setAdapter
+    void removeNonDecorViews() -> g
+    android.support.v4.view.PagerAdapter getAdapter() -> getAdapter
+    void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener) -> setOnAdapterChangeListener
+    int getClientWidth() -> getClientWidth
+    void setCurrentItem(int) -> setCurrentItem
+    void setCurrentItem(int,boolean) -> a
+    int getCurrentItem() -> getCurrentItem
+    void setCurrentItemInternal(int,boolean,boolean) -> a
+    void setCurrentItemInternal(int,boolean,boolean,int) -> a
+    void scrollToItem(int,boolean,int,boolean) -> a
+    void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener) -> setOnPageChangeListener
+    void setChildrenDrawingOrderEnabledCompat(boolean) -> setChildrenDrawingOrderEnabledCompat
+    int getChildDrawingOrder(int,int) -> getChildDrawingOrder
+    int getOffscreenPageLimit() -> getOffscreenPageLimit
+    void setOffscreenPageLimit(int) -> setOffscreenPageLimit
+    void setPageMargin(int) -> setPageMargin
+    int getPageMargin() -> getPageMargin
+    void setPageMarginDrawable(android.graphics.drawable.Drawable) -> setPageMarginDrawable
+    void setPageMarginDrawable(int) -> setPageMarginDrawable
+    boolean verifyDrawable(android.graphics.drawable.Drawable) -> verifyDrawable
+    void drawableStateChanged() -> drawableStateChanged
+    float distanceInfluenceForSnapDuration(float) -> a
+    void smoothScrollTo(int,int,int) -> a
+    android.support.v4.view.ViewPager$ItemInfo addNewItem(int,int) -> a
+    void dataSetChanged() -> b
+    void populate() -> c
+    void populate(int) -> a
+    void sortChildDrawingOrder() -> h
+    void calculatePageOffsets(android.support.v4.view.ViewPager$ItemInfo,int,android.support.v4.view.ViewPager$ItemInfo) -> a
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
+    void removeView(android.view.View) -> removeView
+    android.support.v4.view.ViewPager$ItemInfo infoForChild(android.view.View) -> a
+    android.support.v4.view.ViewPager$ItemInfo infoForAnyChild(android.view.View) -> b
+    android.support.v4.view.ViewPager$ItemInfo infoForPosition(int) -> b
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onMeasure(int,int) -> onMeasure
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void recomputeScrollPosition(int,int,int,int) -> a
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void computeScroll() -> computeScroll
+    boolean pageScrolled(int) -> d
+    void onPageScrolled(int,float,int) -> a
+    void completeScroll(boolean) -> a
+    boolean isGutterDrag(float,float) -> a
+    void enableLayers(boolean) -> b
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean performDrag(float) -> b
+    android.support.v4.view.ViewPager$ItemInfo infoForCurrentScrollPosition() -> i
+    int determineTargetPage(int,float,int,int) -> a
+    void draw(android.graphics.Canvas) -> draw
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onSecondaryPointerUp(android.view.MotionEvent) -> a
+    void endDrag() -> j
+    void setScrollingCacheEnabled(boolean) -> setScrollingCacheEnabled
+    boolean canScrollHorizontally(int) -> canScrollHorizontally
+    boolean canScroll(android.view.View,boolean,int,int,int) -> a
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean executeKeyEvent(android.view.KeyEvent) -> a
+    boolean arrowScroll(int) -> c
+    android.graphics.Rect getChildRectInPagerCoordinates(android.graphics.Rect,android.view.View) -> a
+    boolean pageLeft() -> d
+    boolean pageRight() -> e
+    void addFocusables(java.util.ArrayList,int,int) -> addFocusables
+    void addTouchables(java.util.ArrayList) -> addTouchables
+    boolean onRequestFocusInDescendants(int,android.graphics.Rect) -> onRequestFocusInDescendants
+    boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
+    boolean checkLayoutParams(android.view.ViewGroup$LayoutParams) -> checkLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    void access$000(android.support.v4.view.ViewPager,int) -> a
+    android.support.v4.view.PagerAdapter access$200(android.support.v4.view.ViewPager) -> a
+    int access$300(android.support.v4.view.ViewPager) -> b
+    int[] access$400() -> f
+android.support.v4.view.ViewPager$1 -> a.a.a.b.ax:
+    int compare(android.support.v4.view.ViewPager$ItemInfo,android.support.v4.view.ViewPager$ItemInfo) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.view.ViewPager$2 -> a.a.a.b.ay:
+    float getInterpolation(float) -> getInterpolation
+android.support.v4.view.ViewPager$3 -> a.a.a.b.az:
+    android.support.v4.view.ViewPager this$0 -> a
+    void run() -> run
+android.support.v4.view.ViewPager$Decor -> a.a.a.b.ba:
+android.support.v4.view.ViewPager$ItemInfo -> a.a.a.b.bb:
+    java.lang.Object object -> a
+    int position -> b
+    boolean scrolling -> c
+    float widthFactor -> d
+    float offset -> e
+android.support.v4.view.ViewPager$LayoutParams -> a.a.a.b.bc:
+    boolean isDecor -> a
+    int gravity -> b
+    float widthFactor -> c
+    boolean needsMeasure -> d
+    int position -> e
+    int childIndex -> f
+android.support.v4.view.ViewPager$MyAccessibilityDelegate -> a.a.a.b.bd:
+    android.support.v4.view.ViewPager this$0 -> b
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+    boolean canScroll() -> b
+android.support.v4.view.ViewPager$OnAdapterChangeListener -> a.a.a.b.be:
+    void onAdapterChanged(android.support.v4.view.PagerAdapter,android.support.v4.view.PagerAdapter) -> a
+android.support.v4.view.ViewPager$OnPageChangeListener -> a.a.a.b.bf:
+    void onPageScrolled(int,float,int) -> a
+    void onPageSelected(int) -> a
+    void onPageScrollStateChanged(int) -> b
+android.support.v4.view.ViewPager$PageTransformer -> a.a.a.b.bg:
+    void transformPage(android.view.View,float) -> a
+android.support.v4.view.ViewPager$PagerObserver -> a.a.a.b.bh:
+    android.support.v4.view.ViewPager this$0 -> a
+    void onChanged() -> onChanged
+    void onInvalidated() -> onInvalidated
+android.support.v4.view.ViewPager$SavedState -> a.a.a.b.bi:
+    int position -> a
+    android.os.Parcelable adapterState -> b
+    java.lang.ClassLoader loader -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    java.lang.String toString() -> toString
+android.support.v4.view.ViewPager$SavedState$1 -> a.a.a.b.bj:
+    android.support.v4.view.ViewPager$SavedState createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> b
+    android.support.v4.view.ViewPager$SavedState[] newArray(int) -> b
+    java.lang.Object[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+android.support.v4.view.ViewPager$ViewPositionComparator -> a.a.a.b.bk:
+    int compare(android.view.View,android.view.View) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat -> a.a.a.b.a.a:
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl IMPL -> a
+    java.lang.Object mInfo -> b
+    java.lang.Object getInfo() -> a
+    int getActions() -> b
+    void addAction(int) -> a
+    void getBoundsInParent(android.graphics.Rect) -> a
+    void getBoundsInScreen(android.graphics.Rect) -> b
+    boolean isCheckable() -> c
+    boolean isChecked() -> d
+    boolean isFocusable() -> e
+    boolean isFocused() -> f
+    boolean isSelected() -> g
+    boolean isClickable() -> h
+    boolean isLongClickable() -> i
+    boolean isEnabled() -> j
+    boolean isPassword() -> k
+    boolean isScrollable() -> l
+    void setScrollable(boolean) -> a
+    java.lang.CharSequence getPackageName() -> m
+    java.lang.CharSequence getClassName() -> n
+    void setClassName(java.lang.CharSequence) -> a
+    java.lang.CharSequence getText() -> o
+    java.lang.CharSequence getContentDescription() -> p
+    java.lang.String getViewIdResourceName() -> q
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+    java.lang.String getActionSymbolicName(int) -> b
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl -> a.a.a.b.a.b:
+    void addAction(java.lang.Object,int) -> a
+    int getActions(java.lang.Object) -> a
+    void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
+    void getBoundsInScreen(java.lang.Object,android.graphics.Rect) -> b
+    java.lang.CharSequence getClassName(java.lang.Object) -> b
+    java.lang.CharSequence getContentDescription(java.lang.Object) -> c
+    java.lang.CharSequence getPackageName(java.lang.Object) -> d
+    java.lang.CharSequence getText(java.lang.Object) -> e
+    boolean isCheckable(java.lang.Object) -> f
+    boolean isChecked(java.lang.Object) -> g
+    boolean isClickable(java.lang.Object) -> h
+    boolean isEnabled(java.lang.Object) -> i
+    boolean isFocusable(java.lang.Object) -> j
+    boolean isFocused(java.lang.Object) -> k
+    boolean isLongClickable(java.lang.Object) -> l
+    boolean isPassword(java.lang.Object) -> m
+    boolean isScrollable(java.lang.Object) -> n
+    boolean isSelected(java.lang.Object) -> o
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl -> a.a.a.b.a.c:
+    int getActions(java.lang.Object) -> a
+    void addAction(java.lang.Object,int) -> a
+    void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
+    void getBoundsInScreen(java.lang.Object,android.graphics.Rect) -> b
+    boolean isCheckable(java.lang.Object) -> f
+    boolean isChecked(java.lang.Object) -> g
+    boolean isFocusable(java.lang.Object) -> j
+    boolean isFocused(java.lang.Object) -> k
+    boolean isSelected(java.lang.Object) -> o
+    boolean isClickable(java.lang.Object) -> h
+    boolean isLongClickable(java.lang.Object) -> l
+    boolean isEnabled(java.lang.Object) -> i
+    boolean isPassword(java.lang.Object) -> m
+    boolean isScrollable(java.lang.Object) -> n
+    void setScrollable(java.lang.Object,boolean) -> a
+    java.lang.CharSequence getPackageName(java.lang.Object) -> d
+    java.lang.CharSequence getClassName(java.lang.Object) -> b
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    java.lang.CharSequence getText(java.lang.Object) -> e
+    java.lang.CharSequence getContentDescription(java.lang.Object) -> c
+    java.lang.String getViewIdResourceName(java.lang.Object) -> p
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl -> a.a.a.b.a.d:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanMr2Impl -> a.a.a.b.a.e:
+    java.lang.String getViewIdResourceName(java.lang.Object) -> p
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl -> a.a.a.b.a.f:
+    void addAction(java.lang.Object,int) -> a
+    int getActions(java.lang.Object) -> a
+    void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
+    void getBoundsInScreen(java.lang.Object,android.graphics.Rect) -> b
+    java.lang.CharSequence getClassName(java.lang.Object) -> b
+    java.lang.CharSequence getContentDescription(java.lang.Object) -> c
+    java.lang.CharSequence getPackageName(java.lang.Object) -> d
+    java.lang.CharSequence getText(java.lang.Object) -> e
+    boolean isCheckable(java.lang.Object) -> f
+    boolean isChecked(java.lang.Object) -> g
+    boolean isClickable(java.lang.Object) -> h
+    boolean isEnabled(java.lang.Object) -> i
+    boolean isFocusable(java.lang.Object) -> j
+    boolean isFocused(java.lang.Object) -> k
+    boolean isLongClickable(java.lang.Object) -> l
+    boolean isPassword(java.lang.Object) -> m
+    boolean isScrollable(java.lang.Object) -> n
+    boolean isSelected(java.lang.Object) -> o
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+    java.lang.String getViewIdResourceName(java.lang.Object) -> p
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs -> a.a.a.b.a.g:
+    void addAction(java.lang.Object,int) -> a
+    int getActions(java.lang.Object) -> a
+    void getBoundsInParent(java.lang.Object,android.graphics.Rect) -> a
+    void getBoundsInScreen(java.lang.Object,android.graphics.Rect) -> b
+    java.lang.CharSequence getClassName(java.lang.Object) -> b
+    java.lang.CharSequence getContentDescription(java.lang.Object) -> c
+    java.lang.CharSequence getPackageName(java.lang.Object) -> d
+    java.lang.CharSequence getText(java.lang.Object) -> e
+    boolean isCheckable(java.lang.Object) -> f
+    boolean isChecked(java.lang.Object) -> g
+    boolean isClickable(java.lang.Object) -> h
+    boolean isEnabled(java.lang.Object) -> i
+    boolean isFocusable(java.lang.Object) -> j
+    boolean isFocused(java.lang.Object) -> k
+    boolean isLongClickable(java.lang.Object) -> l
+    boolean isPassword(java.lang.Object) -> m
+    boolean isScrollable(java.lang.Object) -> n
+    boolean isSelected(java.lang.Object) -> o
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellybeanMr2 -> a.a.a.b.a.h:
+    java.lang.String getViewIdResourceName(java.lang.Object) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat -> a.a.a.b.a.i:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl IMPL -> a
+    java.lang.Object mProvider -> b
+    java.lang.Object getProvider() -> a
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompat createAccessibilityNodeInfo(int) -> a
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl -> a.a.a.b.a.j:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl -> a.a.a.b.a.k:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1 -> a.a.a.b.a.l:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat val$compat -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl this$0 -> b
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+    java.lang.Object createAccessibilityNodeInfo(int) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl -> a.a.a.b.a.m:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean -> a.a.a.b.a.n:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1 -> a.a.a.b.a.o:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge val$bridge -> a
+    android.view.accessibility.AccessibilityNodeInfo createAccessibilityNodeInfo(int) -> createAccessibilityNodeInfo
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> findAccessibilityNodeInfosByText
+    boolean performAction(int,int,android.os.Bundle) -> performAction
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge -> a.a.a.b.a.p:
+    java.lang.Object createAccessibilityNodeInfo(int) -> a
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+android.support.v4.view.accessibility.AccessibilityRecordCompat -> a.a.a.b.a.q:
+    android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl IMPL -> a
+    java.lang.Object mRecord -> b
+    android.support.v4.view.accessibility.AccessibilityRecordCompat obtain() -> a
+    void setScrollable(boolean) -> a
+    void setItemCount(int) -> a
+    void setFromIndex(int) -> b
+    void setToIndex(int) -> c
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl -> a.a.a.b.a.r:
+    java.lang.Object obtain() -> a
+    void setFromIndex(java.lang.Object,int) -> a
+    void setItemCount(java.lang.Object,int) -> b
+    void setScrollable(java.lang.Object,boolean) -> a
+    void setToIndex(java.lang.Object,int) -> c
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl -> a.a.a.b.a.s:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl -> a.a.a.b.a.t:
+    java.lang.Object obtain() -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+    void setItemCount(java.lang.Object,int) -> b
+    void setFromIndex(java.lang.Object,int) -> a
+    void setToIndex(java.lang.Object,int) -> c
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl -> a.a.a.b.a.u:
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl -> a.a.a.b.a.v:
+    java.lang.Object obtain() -> a
+    void setFromIndex(java.lang.Object,int) -> a
+    void setItemCount(java.lang.Object,int) -> b
+    void setScrollable(java.lang.Object,boolean) -> a
+    void setToIndex(java.lang.Object,int) -> c
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs -> a.a.a.b.a.w:
+    java.lang.Object obtain() -> a
+    void setFromIndex(java.lang.Object,int) -> a
+    void setItemCount(java.lang.Object,int) -> b
+    void setScrollable(java.lang.Object,boolean) -> a
+    void setToIndex(java.lang.Object,int) -> c
+android.support.v4.widget.EdgeEffectCompat -> a.a.a.c.a:
+    java.lang.Object mEdgeEffect -> a
+    android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl IMPL -> b
+    void setSize(int,int) -> a
+    boolean isFinished() -> a
+    void finish() -> b
+    boolean onPull(float) -> a
+    boolean onRelease() -> c
+    boolean draw(android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl -> a.a.a.c.b:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl -> a.a.a.c.c:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl -> a.a.a.c.d:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompatIcs -> a.a.a.c.e:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+com.blocker.photo.HackyViewPager -> com.blocker.photo.HackyViewPager:
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+com.blocker.photo.ImageAdapter -> com.blocker.photo.a:
+    com.nineoldandroids.animation.Animator mCurrentAnimator -> f
+    int mShortAnimationDuration -> g
+    android.content.Context mContext -> h
+    int[] mThumbIds -> a
+    float startScale -> b
+    com.blocker.photo.HackyViewPager viewPager -> c
+    android.graphics.Rect startBounds -> d
+    float startScaleFinal -> e
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void zoomImageFromThumb(android.view.View,int) -> a
+    boolean getScaleFinalBounds(int) -> a
+    void access$000(com.blocker.photo.ImageAdapter,android.view.View,int) -> a
+    com.nineoldandroids.animation.Animator access$102(com.blocker.photo.ImageAdapter,com.nineoldandroids.animation.Animator) -> a
+    com.nineoldandroids.animation.Animator access$100(com.blocker.photo.ImageAdapter) -> a
+    int access$300(com.blocker.photo.ImageAdapter) -> b
+com.blocker.photo.ImageAdapter$1 -> com.blocker.photo.b:
+    int val$position -> a
+    com.blocker.photo.ImageAdapter this$0 -> b
+    void onClick(android.view.View) -> onClick
+com.blocker.photo.ImageAdapter$2 -> com.blocker.photo.c:
+    com.blocker.photo.ImageAdapter this$0 -> a
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+com.blocker.photo.ImageAdapter$SamplePagerAdapter -> com.blocker.photo.d:
+    int[] sDrawables -> b
+    android.content.Context mContext -> c
+    com.blocker.photo.ImageAdapter this$0 -> a
+    int getCount() -> a
+    android.view.View instantiateItem(android.view.ViewGroup,int) -> b
+    void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
+    boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
+    android.content.Context access$200(com.blocker.photo.ImageAdapter$SamplePagerAdapter) -> a
+com.blocker.photo.ImageAdapter$SamplePagerAdapter$1 -> com.blocker.photo.e:
+    uk.co.senab.photoview.PhotoView val$photoView -> a
+    int val$position -> b
+    com.blocker.photo.ImageAdapter$SamplePagerAdapter this$1 -> c
+    void onPhotoTap(android.view.View,float,float) -> a
+com.blocker.photo.ImageAdapter$SamplePagerAdapter$1$1 -> com.blocker.photo.f:
+    com.blocker.photo.ImageAdapter$SamplePagerAdapter$1 this$2 -> a
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+com.blocker.photo.MainActivity -> com.blocker.photo.MainActivity:
+    android.widget.GridView gridView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+com.nineoldandroids.animation.Animator -> com.a.a.a:
+    java.util.ArrayList mListeners -> a
+    void start() -> a
+    void cancel() -> b
+    com.nineoldandroids.animation.Animator setDuration(long) -> a
+    void setInterpolator(android.view.animation.Interpolator) -> a
+    boolean isRunning() -> c
+    boolean isStarted() -> d
+    void addListener(com.nineoldandroids.animation.Animator$AnimatorListener) -> a
+    void removeListener(com.nineoldandroids.animation.Animator$AnimatorListener) -> b
+    java.util.ArrayList getListeners() -> e
+    com.nineoldandroids.animation.Animator clone() -> f
+    java.lang.Object clone() -> clone
+com.nineoldandroids.animation.Animator$AnimatorListener -> com.a.a.b:
+    void onAnimationStart(com.nineoldandroids.animation.Animator) -> c
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+    void onAnimationRepeat(com.nineoldandroids.animation.Animator) -> d
+com.nineoldandroids.animation.AnimatorListenerAdapter -> com.a.a.c:
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+    void onAnimationRepeat(com.nineoldandroids.animation.Animator) -> d
+    void onAnimationStart(com.nineoldandroids.animation.Animator) -> c
+com.nineoldandroids.animation.AnimatorSet -> com.a.a.d:
+    java.util.ArrayList mPlayingSet -> c
+    java.util.HashMap mNodeMap -> d
+    java.util.ArrayList mNodes -> e
+    java.util.ArrayList mSortedNodes -> f
+    boolean mNeedsSort -> g
+    com.nineoldandroids.animation.AnimatorSet$AnimatorSetListener mSetListener -> h
+    boolean mTerminated -> b
+    boolean mStarted -> i
+    long mStartDelay -> j
+    com.nineoldandroids.animation.ValueAnimator mDelayAnim -> k
+    long mDuration -> l
+    void setInterpolator(android.view.animation.Interpolator) -> a
+    com.nineoldandroids.animation.AnimatorSet$Builder play(com.nineoldandroids.animation.Animator) -> a
+    void cancel() -> b
+    boolean isRunning() -> c
+    boolean isStarted() -> d
+    com.nineoldandroids.animation.AnimatorSet setDuration(long) -> b
+    void start() -> a
+    com.nineoldandroids.animation.AnimatorSet clone() -> g
+    void sortNodes() -> h
+    com.nineoldandroids.animation.Animator clone() -> f
+    com.nineoldandroids.animation.Animator setDuration(long) -> a
+    java.util.ArrayList access$2(com.nineoldandroids.animation.AnimatorSet) -> a
+    java.util.HashMap access$3(com.nineoldandroids.animation.AnimatorSet) -> b
+    java.util.ArrayList access$4(com.nineoldandroids.animation.AnimatorSet) -> c
+    void access$5(com.nineoldandroids.animation.AnimatorSet,boolean) -> a
+    java.util.ArrayList access$6(com.nineoldandroids.animation.AnimatorSet) -> d
+com.nineoldandroids.animation.AnimatorSet$1 -> com.a.a.e:
+    boolean canceled -> a
+    com.nineoldandroids.animation.AnimatorSet this$0 -> b
+    java.util.ArrayList val$nodesToStart -> c
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+com.nineoldandroids.animation.AnimatorSet$AnimatorSetListener -> com.a.a.f:
+    com.nineoldandroids.animation.AnimatorSet mAnimatorSet -> b
+    com.nineoldandroids.animation.AnimatorSet this$0 -> a
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+    void onAnimationRepeat(com.nineoldandroids.animation.Animator) -> d
+    void onAnimationStart(com.nineoldandroids.animation.Animator) -> c
+com.nineoldandroids.animation.AnimatorSet$Builder -> com.a.a.g:
+    com.nineoldandroids.animation.AnimatorSet$Node mCurrentNode -> b
+    com.nineoldandroids.animation.AnimatorSet this$0 -> a
+    com.nineoldandroids.animation.AnimatorSet$Builder with(com.nineoldandroids.animation.Animator) -> a
+com.nineoldandroids.animation.AnimatorSet$Dependency -> com.a.a.h:
+    com.nineoldandroids.animation.AnimatorSet$Node node -> a
+    int rule -> b
+com.nineoldandroids.animation.AnimatorSet$DependencyListener -> com.a.a.i:
+    com.nineoldandroids.animation.AnimatorSet mAnimatorSet -> a
+    com.nineoldandroids.animation.AnimatorSet$Node mNode -> b
+    int mRule -> c
+    void onAnimationCancel(com.nineoldandroids.animation.Animator) -> b
+    void onAnimationEnd(com.nineoldandroids.animation.Animator) -> a
+    void onAnimationRepeat(com.nineoldandroids.animation.Animator) -> d
+    void onAnimationStart(com.nineoldandroids.animation.Animator) -> c
+    void startIfReady(com.nineoldandroids.animation.Animator) -> e
+com.nineoldandroids.animation.AnimatorSet$Node -> com.a.a.j:
+    com.nineoldandroids.animation.Animator animation -> a
+    java.util.ArrayList dependencies -> b
+    java.util.ArrayList tmpDependencies -> c
+    java.util.ArrayList nodeDependencies -> d
+    java.util.ArrayList nodeDependents -> e
+    boolean done -> f
+    void addDependency(com.nineoldandroids.animation.AnimatorSet$Dependency) -> a
+    com.nineoldandroids.animation.AnimatorSet$Node clone() -> a
+    java.lang.Object clone() -> clone
+com.nineoldandroids.animation.FloatEvaluator -> com.a.a.k:
+    java.lang.Float evaluate(float,java.lang.Number,java.lang.Number) -> a
+    java.lang.Object evaluate(float,java.lang.Object,java.lang.Object) -> a
+com.nineoldandroids.animation.FloatKeyframeSet -> com.a.a.l:
+    float firstValue -> g
+    float lastValue -> h
+    float deltaValue -> i
+    boolean firstTime -> j
+    java.lang.Object getValue(float) -> a
+    com.nineoldandroids.animation.FloatKeyframeSet clone() -> a
+    float getFloatValue(float) -> b
+    com.nineoldandroids.animation.KeyframeSet clone() -> b
+com.nineoldandroids.animation.IntEvaluator -> com.a.a.m:
+    java.lang.Integer evaluate(float,java.lang.Integer,java.lang.Integer) -> a
+    java.lang.Object evaluate(float,java.lang.Object,java.lang.Object) -> a
+com.nineoldandroids.animation.Keyframe -> com.a.a.n:
+    float mFraction -> a
+    java.lang.Class mValueType -> b
+    android.view.animation.Interpolator mInterpolator -> d
+    boolean mHasValue -> c
+    com.nineoldandroids.animation.Keyframe ofFloat(float,float) -> a
+    com.nineoldandroids.animation.Keyframe ofFloat(float) -> a
+    boolean hasValue() -> a
+    java.lang.Object getValue() -> b
+    void setValue(java.lang.Object) -> a
+    float getFraction() -> c
+    android.view.animation.Interpolator getInterpolator() -> d
+    void setInterpolator(android.view.animation.Interpolator) -> a
+    com.nineoldandroids.animation.Keyframe clone() -> e
+    java.lang.Object clone() -> clone
+com.nineoldandroids.animation.Keyframe$FloatKeyframe -> com.a.a.o:
+    float mValue -> d
+    float getFloatValue() -> f
+    java.lang.Object getValue() -> b
+    void setValue(java.lang.Object) -> a
+    com.nineoldandroids.animation.Keyframe$FloatKeyframe clone() -> g
+    com.nineoldandroids.animation.Keyframe clone() -> e
+com.nineoldandroids.animation.KeyframeSet -> com.a.a.p:
+    int mNumKeyframes -> a
+    com.nineoldandroids.animation.Keyframe mFirstKeyframe -> b
+    com.nineoldandroids.animation.Keyframe mLastKeyframe -> c
+    android.view.animation.Interpolator mInterpolator -> d
+    java.util.ArrayList mKeyframes -> e
+    com.nineoldandroids.animation.TypeEvaluator mEvaluator -> f
+    com.nineoldandroids.animation.KeyframeSet ofFloat(float[]) -> a
+    void setEvaluator(com.nineoldandroids.animation.TypeEvaluator) -> a
+    com.nineoldandroids.animation.KeyframeSet clone() -> b
+    java.lang.Object getValue(float) -> a
+    java.lang.String toString() -> toString
+    java.lang.Object clone() -> clone
+com.nineoldandroids.animation.ObjectAnimator -> com.a.a.q:
+    java.util.Map PROXY_PROPERTIES -> h
+    java.lang.Object mTarget -> i
+    java.lang.String mPropertyName -> j
+    com.nineoldandroids.util.Property mProperty -> k
+    void setPropertyName(java.lang.String) -> a
+    void setProperty(com.nineoldandroids.util.Property) -> a
+    com.nineoldandroids.animation.ObjectAnimator ofFloat(java.lang.Object,java.lang.String,float[]) -> a
+    void setFloatValues(float[]) -> a
+    void start() -> a
+    void initAnimation() -> g
+    com.nineoldandroids.animation.ObjectAnimator setDuration(long) -> b
+    void animateValue(float) -> a
+    com.nineoldandroids.animation.ObjectAnimator clone() -> h
+    java.lang.String toString() -> toString
+    com.nineoldandroids.animation.ValueAnimator clone() -> i
+    com.nineoldandroids.animation.ValueAnimator setDuration(long) -> c
+com.nineoldandroids.animation.PreHoneycombCompat -> com.a.a.r:
+    com.nineoldandroids.util.Property ALPHA -> a
+    com.nineoldandroids.util.Property PIVOT_X -> b
+    com.nineoldandroids.util.Property PIVOT_Y -> c
+    com.nineoldandroids.util.Property TRANSLATION_X -> d
+    com.nineoldandroids.util.Property TRANSLATION_Y -> e
+    com.nineoldandroids.util.Property ROTATION -> f
+    com.nineoldandroids.util.Property ROTATION_X -> g
+    com.nineoldandroids.util.Property ROTATION_Y -> h
+    com.nineoldandroids.util.Property SCALE_X -> i
+    com.nineoldandroids.util.Property SCALE_Y -> j
+    com.nineoldandroids.util.Property SCROLL_X -> k
+    com.nineoldandroids.util.Property SCROLL_Y -> l
+    com.nineoldandroids.util.Property X -> m
+    com.nineoldandroids.util.Property Y -> n
+com.nineoldandroids.animation.PreHoneycombCompat$1 -> com.a.a.s:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$10 -> com.a.a.t:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$11 -> com.a.a.u:
+    java.lang.Integer get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$12 -> com.a.a.v:
+    java.lang.Integer get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$13 -> com.a.a.w:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$14 -> com.a.a.x:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$2 -> com.a.a.y:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$3 -> com.a.a.z:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$4 -> com.a.a.aa:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$5 -> com.a.a.ab:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$6 -> com.a.a.ac:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$7 -> com.a.a.ad:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$8 -> com.a.a.ae:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PreHoneycombCompat$9 -> com.a.a.af:
+    void setValue(android.view.View,float) -> a
+    java.lang.Float get(android.view.View) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    void setValue(java.lang.Object,float) -> a
+com.nineoldandroids.animation.PropertyValuesHolder -> com.a.a.ag:
+    java.lang.String mPropertyName -> a
+    com.nineoldandroids.util.Property mProperty -> b
+    java.lang.reflect.Method mSetter -> c
+    java.lang.reflect.Method mGetter -> h
+    java.lang.Class mValueType -> d
+    com.nineoldandroids.animation.KeyframeSet mKeyframeSet -> e
+    com.nineoldandroids.animation.TypeEvaluator sIntEvaluator -> i
+    com.nineoldandroids.animation.TypeEvaluator sFloatEvaluator -> j
+    java.lang.Class[] FLOAT_VARIANTS -> k
+    java.lang.Class[] INTEGER_VARIANTS -> l
+    java.lang.Class[] DOUBLE_VARIANTS -> m
+    java.util.HashMap sSetterPropertyMap -> n
+    java.util.HashMap sGetterPropertyMap -> o
+    java.util.concurrent.locks.ReentrantReadWriteLock mPropertyMapLock -> f
+    java.lang.Object[] mTmpValueArray -> g
+    com.nineoldandroids.animation.TypeEvaluator mEvaluator -> p
+    java.lang.Object mAnimatedValue -> q
+    com.nineoldandroids.animation.PropertyValuesHolder ofFloat(java.lang.String,float[]) -> a
+    com.nineoldandroids.animation.PropertyValuesHolder ofFloat(com.nineoldandroids.util.Property,float[]) -> a
+    void setFloatValues(float[]) -> a
+    java.lang.reflect.Method getPropertyFunction(java.lang.Class,java.lang.String,java.lang.Class) -> a
+    java.lang.reflect.Method setupSetterOrGetter(java.lang.Class,java.util.HashMap,java.lang.String,java.lang.Class) -> a
+    void setupSetter(java.lang.Class) -> a
+    void setupGetter(java.lang.Class) -> b
+    void setupSetterAndGetter(java.lang.Object) -> a
+    com.nineoldandroids.animation.PropertyValuesHolder clone() -> a
+    void setAnimatedValue(java.lang.Object) -> b
+    void init() -> b
+    void calculateValue(float) -> a
+    void setPropertyName(java.lang.String) -> a
+    void setProperty(com.nineoldandroids.util.Property) -> a
+    java.lang.String getPropertyName() -> c
+    java.lang.Object getAnimatedValue() -> d
+    java.lang.String toString() -> toString
+    java.lang.String getMethodName(java.lang.String,java.lang.String) -> a
+    java.lang.Object clone() -> clone
+com.nineoldandroids.animation.PropertyValuesHolder$FloatPropertyValuesHolder -> com.a.a.ah:
+    com.nineoldandroids.util.FloatProperty mFloatProperty -> j
+    com.nineoldandroids.animation.FloatKeyframeSet mFloatKeyframeSet -> h
+    float mFloatAnimatedValue -> i
+    void setFloatValues(float[]) -> a
+    void calculateValue(float) -> a
+    java.lang.Object getAnimatedValue() -> d
+    com.nineoldandroids.animation.PropertyValuesHolder$FloatPropertyValuesHolder clone() -> e
+    void setAnimatedValue(java.lang.Object) -> b
+    void setupSetter(java.lang.Class) -> a
+    com.nineoldandroids.animation.PropertyValuesHolder clone() -> a
+com.nineoldandroids.animation.TypeEvaluator -> com.a.a.ai:
+    java.lang.Object evaluate(float,java.lang.Object,java.lang.Object) -> a
+com.nineoldandroids.animation.ValueAnimator -> com.a.a.aj:
+    long mStartTime -> b
+    long mSeekTime -> c
+    java.lang.ThreadLocal sAnimationHandler -> h
+    java.lang.ThreadLocal sAnimations -> i
+    java.lang.ThreadLocal sPendingAnimations -> j
+    java.lang.ThreadLocal sDelayedAnims -> k
+    java.lang.ThreadLocal sEndingAnims -> l
+    java.lang.ThreadLocal sReadyAnims -> m
+    android.view.animation.Interpolator sDefaultInterpolator -> n
+    com.nineoldandroids.animation.TypeEvaluator sIntEvaluator -> o
+    com.nineoldandroids.animation.TypeEvaluator sFloatEvaluator -> p
+    boolean mPlayingBackwards -> q
+    int mCurrentIteration -> r
+    float mCurrentFraction -> s
+    boolean mStartedDelay -> t
+    long mDelayStartTime -> u
+    int mPlayingState -> d
+    boolean mRunning -> v
+    boolean mStarted -> w
+    boolean mInitialized -> e
+    long mDuration -> x
+    long mStartDelay -> y
+    long sFrameDelay -> z
+    int mRepeatCount -> A
+    int mRepeatMode -> B
+    android.view.animation.Interpolator mInterpolator -> C
+    java.util.ArrayList mUpdateListeners -> D
+    com.nineoldandroids.animation.PropertyValuesHolder[] mValues -> f
+    java.util.HashMap mValuesMap -> g
+    com.nineoldandroids.animation.ValueAnimator ofFloat(float[]) -> b
+    void setFloatValues(float[]) -> a
+    void setValues(com.nineoldandroids.animation.PropertyValuesHolder[]) -> a
+    void initAnimation() -> g
+    com.nineoldandroids.animation.ValueAnimator setDuration(long) -> c
+    void setCurrentPlayTime(long) -> d
+    long getCurrentPlayTime() -> j
+    void setInterpolator(android.view.animation.Interpolator) -> a
+    void start(boolean) -> a
+    void start() -> a
+    void cancel() -> b
+    boolean isRunning() -> c
+    boolean isStarted() -> d
+    void endAnimation() -> h
+    void startAnimation() -> q
+    boolean delayedAnimationFrame(long) -> b
+    boolean animationFrame(long) -> e
+    void animateValue(float) -> a
+    com.nineoldandroids.animation.ValueAnimator clone() -> i
+    java.lang.String toString() -> toString
+    com.nineoldandroids.animation.Animator clone() -> f
+    com.nineoldandroids.animation.Animator setDuration(long) -> a
+    java.lang.ThreadLocal access$2() -> k
+    java.lang.ThreadLocal access$3() -> l
+    java.lang.ThreadLocal access$4() -> m
+    long access$5(com.nineoldandroids.animation.ValueAnimator) -> a
+    void access$6(com.nineoldandroids.animation.ValueAnimator) -> b
+    java.lang.ThreadLocal access$7() -> n
+    java.lang.ThreadLocal access$8() -> o
+    boolean access$9(com.nineoldandroids.animation.ValueAnimator,long) -> a
+    void access$10(com.nineoldandroids.animation.ValueAnimator,boolean) -> a
+    void access$11(com.nineoldandroids.animation.ValueAnimator) -> c
+    long access$12() -> p
+com.nineoldandroids.animation.ValueAnimator$1 -> com.a.a.ak:
+    java.util.ArrayList initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.nineoldandroids.animation.ValueAnimator$2 -> com.a.a.al:
+    java.util.ArrayList initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.nineoldandroids.animation.ValueAnimator$3 -> com.a.a.am:
+    java.util.ArrayList initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.nineoldandroids.animation.ValueAnimator$4 -> com.a.a.an:
+    java.util.ArrayList initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.nineoldandroids.animation.ValueAnimator$5 -> com.a.a.ao:
+    java.util.ArrayList initialValue() -> a
+    java.lang.Object initialValue() -> initialValue
+com.nineoldandroids.animation.ValueAnimator$AnimationHandler -> com.a.a.ap:
+    void handleMessage(android.os.Message) -> handleMessage
+com.nineoldandroids.animation.ValueAnimator$AnimatorUpdateListener -> com.a.a.aq:
+    void onAnimationUpdate(com.nineoldandroids.animation.ValueAnimator) -> a
+com.nineoldandroids.util.FloatProperty -> com.a.b.a:
+    void setValue(java.lang.Object,float) -> a
+    void set(java.lang.Object,java.lang.Float) -> a
+    void set(java.lang.Object,java.lang.Object) -> a
+com.nineoldandroids.util.IntProperty -> com.a.b.b:
+    void set(java.lang.Object,java.lang.Integer) -> a
+    void set(java.lang.Object,java.lang.Object) -> a
+com.nineoldandroids.util.Property -> com.a.b.c:
+    java.lang.String mName -> a
+    java.lang.Class mType -> b
+    void set(java.lang.Object,java.lang.Object) -> a
+    java.lang.Object get(java.lang.Object) -> a
+    java.lang.String getName() -> a
+com.nineoldandroids.view.animation.AnimatorProxy -> com.a.c.a.a:
+    boolean NEEDS_PROXY -> a
+    java.util.WeakHashMap PROXIES -> b
+    java.lang.ref.WeakReference mView -> c
+    android.graphics.Camera mCamera -> d
+    boolean mHasPivot -> e
+    float mAlpha -> f
+    float mPivotX -> g
+    float mPivotY -> h
+    float mRotationX -> i
+    float mRotationY -> j
+    float mRotationZ -> k
+    float mScaleX -> l
+    float mScaleY -> m
+    float mTranslationX -> n
+    float mTranslationY -> o
+    android.graphics.RectF mBefore -> p
+    android.graphics.RectF mAfter -> q
+    android.graphics.Matrix mTempMatrix -> r
+    com.nineoldandroids.view.animation.AnimatorProxy wrap(android.view.View) -> a
+    float getAlpha() -> a
+    void setAlpha(float) -> a
+    float getPivotX() -> b
+    void setPivotX(float) -> b
+    float getPivotY() -> c
+    void setPivotY(float) -> c
+    float getRotation() -> d
+    void setRotation(float) -> d
+    float getRotationX() -> e
+    void setRotationX(float) -> e
+    float getRotationY() -> f
+    void setRotationY(float) -> f
+    float getScaleX() -> g
+    void setScaleX(float) -> g
+    float getScaleY() -> h
+    void setScaleY(float) -> h
+    int getScrollX() -> i
+    int getScrollY() -> j
+    float getTranslationX() -> k
+    void setTranslationX(float) -> i
+    float getTranslationY() -> l
+    void setTranslationY(float) -> j
+    float getX() -> m
+    void setX(float) -> k
+    float getY() -> n
+    void setY(float) -> l
+    void prepareForUpdate() -> o
+    void invalidateAfterUpdate() -> p
+    void computeRect(android.graphics.RectF,android.view.View) -> a
+    void transformMatrix(android.graphics.Matrix,android.view.View) -> a
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+uk.co.senab.photoview.Compat -> b.a.a.a.a:
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+uk.co.senab.photoview.PhotoView -> b.a.a.a.b:
+    uk.co.senab.photoview.PhotoViewAttacher mAttacher -> a
+    android.widget.ImageView$ScaleType mPendingScaleType -> b
+    android.graphics.RectF getDisplayRect() -> getDisplayRect
+    float getMinScale() -> getMinScale
+    float getMidScale() -> getMidScale
+    float getMaxScale() -> getMaxScale
+    float getScale() -> getScale
+    android.widget.ImageView$ScaleType getScaleType() -> getScaleType
+    void setAllowParentInterceptOnEdge(boolean) -> setAllowParentInterceptOnEdge
+    void setMinScale(float) -> setMinScale
+    void setMidScale(float) -> setMidScale
+    void setMaxScale(float) -> setMaxScale
+    void setImageDrawable(android.graphics.drawable.Drawable) -> setImageDrawable
+    void setImageResource(int) -> setImageResource
+    void setImageURI(android.net.Uri) -> setImageURI
+    void setOnMatrixChangeListener(uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener) -> setOnMatrixChangeListener
+    void setOnLongClickListener(android.view.View$OnLongClickListener) -> setOnLongClickListener
+    void setOnPhotoTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener) -> setOnPhotoTapListener
+    void setOnViewTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener) -> setOnViewTapListener
+    void setScaleType(android.widget.ImageView$ScaleType) -> setScaleType
+    void setZoomable(boolean) -> setZoomable
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void clearZoom() -> a
+uk.co.senab.photoview.PhotoViewAttacher -> b.a.a.a.c:
+    boolean DEBUG -> a
+    float mMinScale -> b
+    float mMidScale -> c
+    float mMaxScale -> d
+    boolean mAllowParentInterceptOnEdge -> e
+    java.lang.ref.WeakReference mImageView -> f
+    android.view.ViewTreeObserver mViewTreeObserver -> g
+    android.view.GestureDetector mGestureDetector -> h
+    uk.co.senab.photoview.VersionedGestureDetector mScaleDragDetector -> i
+    android.graphics.Matrix mBaseMatrix -> j
+    android.graphics.Matrix mDrawMatrix -> k
+    android.graphics.Matrix mSuppMatrix -> l
+    android.graphics.RectF mDisplayRect -> m
+    float[] mMatrixValues -> n
+    uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener mMatrixChangeListener -> o
+    uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener mPhotoTapListener -> p
+    uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener mViewTapListener -> q
+    android.view.View$OnLongClickListener mLongClickListener -> r
+    int mIvTop -> s
+    int mIvRight -> t
+    int mIvBottom -> u
+    int mIvLeft -> v
+    uk.co.senab.photoview.PhotoViewAttacher$FlingRunnable mCurrentFlingRunnable -> w
+    int mScrollEdge -> x
+    boolean mZoomEnabled -> y
+    android.widget.ImageView$ScaleType mScaleType -> z
+    void checkZoomLevels(float,float,float) -> c
+    boolean hasDrawable(android.widget.ImageView) -> a
+    boolean isSupportedScaleType(android.widget.ImageView$ScaleType) -> b
+    void setImageViewScaleTypeMatrix(android.widget.ImageView) -> b
+    void cleanup() -> a
+    android.graphics.RectF getDisplayRect() -> b
+    android.widget.ImageView getImageView() -> c
+    float getMinScale() -> d
+    float getMidScale() -> e
+    float getMaxScale() -> f
+    float getScale() -> g
+    android.widget.ImageView$ScaleType getScaleType() -> h
+    boolean onDoubleTap(android.view.MotionEvent) -> onDoubleTap
+    boolean onDoubleTapEvent(android.view.MotionEvent) -> onDoubleTapEvent
+    void onDrag(float,float) -> a
+    void onFling(float,float,float,float) -> a
+    void onGlobalLayout() -> onGlobalLayout
+    void onScale(float,float,float) -> a
+    boolean onSingleTapConfirmed(android.view.MotionEvent) -> onSingleTapConfirmed
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    void setAllowParentInterceptOnEdge(boolean) -> a
+    void setMinScale(float) -> a
+    void setMidScale(float) -> b
+    void setMaxScale(float) -> c
+    void setOnLongClickListener(android.view.View$OnLongClickListener) -> a
+    void setOnMatrixChangeListener(uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener) -> a
+    void setOnPhotoTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener) -> a
+    void setOnViewTapListener(uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener) -> a
+    void setScaleType(android.widget.ImageView$ScaleType) -> a
+    void setZoomable(boolean) -> b
+    void update() -> i
+    void zoomTo(float,float,float) -> b
+    android.graphics.Matrix getDisplayMatrix() -> j
+    void cancelFling() -> k
+    void checkAndDisplayMatrix() -> l
+    void checkImageViewScaleType() -> m
+    void checkMatrixBounds() -> n
+    android.graphics.RectF getDisplayRect(android.graphics.Matrix) -> a
+    float getValue(android.graphics.Matrix,int) -> a
+    void resetMatrix() -> o
+    void setImageViewMatrix(android.graphics.Matrix) -> b
+    void updateBaseMatrix(android.graphics.drawable.Drawable) -> a
+    android.view.View$OnLongClickListener access$000(uk.co.senab.photoview.PhotoViewAttacher) -> a
+    java.lang.ref.WeakReference access$100(uk.co.senab.photoview.PhotoViewAttacher) -> b
+    android.graphics.Matrix access$200(uk.co.senab.photoview.PhotoViewAttacher) -> c
+    void access$300(uk.co.senab.photoview.PhotoViewAttacher) -> d
+    void access$400(uk.co.senab.photoview.PhotoViewAttacher,android.graphics.Matrix) -> a
+uk.co.senab.photoview.PhotoViewAttacher$1 -> b.a.a.a.d:
+    uk.co.senab.photoview.PhotoViewAttacher this$0 -> a
+    void onLongPress(android.view.MotionEvent) -> onLongPress
+uk.co.senab.photoview.PhotoViewAttacher$2 -> b.a.a.a.e:
+    int[] $SwitchMap$android$widget$ImageView$ScaleType -> a
+uk.co.senab.photoview.PhotoViewAttacher$AnimatedZoomRunnable -> b.a.a.a.f:
+    float mFocalX -> b
+    float mFocalY -> c
+    float mTargetZoom -> d
+    float mDeltaScale -> e
+    uk.co.senab.photoview.PhotoViewAttacher this$0 -> a
+    void run() -> run
+uk.co.senab.photoview.PhotoViewAttacher$FlingRunnable -> b.a.a.a.g:
+    uk.co.senab.photoview.ScrollerProxy mScroller -> b
+    int mCurrentX -> c
+    int mCurrentY -> d
+    uk.co.senab.photoview.PhotoViewAttacher this$0 -> a
+    void cancelFling() -> a
+    void fling(int,int,int,int) -> a
+    void run() -> run
+uk.co.senab.photoview.PhotoViewAttacher$OnMatrixChangedListener -> b.a.a.a.h:
+    void onMatrixChanged(android.graphics.RectF) -> a
+uk.co.senab.photoview.PhotoViewAttacher$OnPhotoTapListener -> b.a.a.a.i:
+    void onPhotoTap(android.view.View,float,float) -> a
+uk.co.senab.photoview.PhotoViewAttacher$OnViewTapListener -> b.a.a.a.j:
+    void onViewTap(android.view.View,float,float) -> a
+uk.co.senab.photoview.SDK16 -> b.a.a.a.k:
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+uk.co.senab.photoview.ScrollerProxy -> b.a.a.a.l:
+    uk.co.senab.photoview.ScrollerProxy getScroller(android.content.Context) -> a
+    boolean computeScrollOffset() -> a
+    void fling(int,int,int,int,int,int,int,int,int,int) -> a
+    void forceFinished(boolean) -> a
+    int getCurrX() -> b
+    int getCurrY() -> c
+uk.co.senab.photoview.ScrollerProxy$GingerScroller -> b.a.a.a.m:
+    android.widget.OverScroller mScroller -> a
+    boolean computeScrollOffset() -> a
+    void fling(int,int,int,int,int,int,int,int,int,int) -> a
+    void forceFinished(boolean) -> a
+    int getCurrX() -> b
+    int getCurrY() -> c
+uk.co.senab.photoview.ScrollerProxy$PreGingerScroller -> b.a.a.a.n:
+    android.widget.Scroller mScroller -> a
+    boolean computeScrollOffset() -> a
+    void fling(int,int,int,int,int,int,int,int,int,int) -> a
+    void forceFinished(boolean) -> a
+    int getCurrX() -> b
+    int getCurrY() -> c
+uk.co.senab.photoview.VersionedGestureDetector -> b.a.a.a.o:
+    uk.co.senab.photoview.VersionedGestureDetector$OnGestureListener mListener -> a
+    uk.co.senab.photoview.VersionedGestureDetector newInstance(android.content.Context,uk.co.senab.photoview.VersionedGestureDetector$OnGestureListener) -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> a
+    boolean isScaling() -> a
+uk.co.senab.photoview.VersionedGestureDetector$CupcakeDetector -> b.a.a.a.p:
+    float mLastTouchX -> b
+    float mLastTouchY -> c
+    float mTouchSlop -> d
+    float mMinimumVelocity -> e
+    android.view.VelocityTracker mVelocityTracker -> f
+    boolean mIsDragging -> g
+    float getActiveX(android.view.MotionEvent) -> b
+    float getActiveY(android.view.MotionEvent) -> c
+    boolean isScaling() -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> a
+uk.co.senab.photoview.VersionedGestureDetector$EclairDetector -> b.a.a.a.q:
+    int mActivePointerId -> f
+    int mActivePointerIndex -> g
+    float getActiveX(android.view.MotionEvent) -> b
+    float getActiveY(android.view.MotionEvent) -> c
+    boolean onTouchEvent(android.view.MotionEvent) -> a
+uk.co.senab.photoview.VersionedGestureDetector$FroyoDetector -> b.a.a.a.r:
+    android.view.ScaleGestureDetector mDetector -> f
+    android.view.ScaleGestureDetector$OnScaleGestureListener mScaleListener -> g
+    boolean isScaling() -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> a
+uk.co.senab.photoview.VersionedGestureDetector$FroyoDetector$1 -> b.a.a.a.s:
+    uk.co.senab.photoview.VersionedGestureDetector$FroyoDetector this$0 -> a
+    boolean onScale(android.view.ScaleGestureDetector) -> onScale
+    boolean onScaleBegin(android.view.ScaleGestureDetector) -> onScaleBegin
+    void onScaleEnd(android.view.ScaleGestureDetector) -> onScaleEnd
+uk.co.senab.photoview.VersionedGestureDetector$OnGestureListener -> b.a.a.a.t:
+    void onDrag(float,float) -> a
+    void onFling(float,float,float,float) -> a
+    void onScale(float,float,float) -> a
